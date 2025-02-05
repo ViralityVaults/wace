@@ -1,0 +1,70 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+input[type="password"], input[type="file"] {
+    background-color: #333;
+    color: #e0e0e0;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+button {
+    background-color: #444;
+    color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.subject-category {
+    margin-bottom: 20px;
+}
+
+.subject-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subject-category ul li {
+    margin: 5px 0;
+}
+
+.subject-link {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+.subject-link:hover {
+    text-decoration: underline;
+}
