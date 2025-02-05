@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure File Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Secure File Sharing</h1>
+        <div id="access-section">
+            <input type="password" id="access-password" placeholder="Enter Access Password">
+            <button onclick="checkAccessPassword()">Access</button>
+        </div>
+        <div id="main-content" style="display: none;">
+            <div id="upload-section">
+                <h2>Upload Files</h2>
+                <input type="password" id="upload-password" placeholder="Enter Upload Password">
+                <input type="file" id="file-input">
+                <button onclick="uploadFile()">Upload</button>
+            </div>
+            <div id="download-section">
+                <h2>Download Files</h2>
+                <div class="subject-category">
+                    <h3>List A (Arts, Languages, Social Sciences)</h3>
+                    <ul>
+                        <li><a href="#" class="subject-link">Dance</a></li>
+                        <li><a href="#" class="subject-link">Design</a></li>
+                        <li><a href="#" class="subject-link">Drama</a></li>
+                        <li><a href="#" class="subject-link">Media Production and Analysis</a></li>
+                        <li><a href="#" class="subject-link">Music</a></li>
+                        <li><a href="#" class="subject-link">Visual Arts</a></li>
+                        <li><a href="#" class="subject-link">English</a></li>
+                        <li><a href="#" class="subject-link">Literature</a></li>
+                        <li><a href="#" class="subject-link">English as an Additional Language or Dialect</a></li>
+                        <li><a href="#" class="subject-link">Health Studies</a></li>
+                        <li><a href="#" class="subject-link">Outdoor Education</a></li>
+                        <li><a href="#" class="subject-link">Physical Education Studies</a></li>
+                        <li><a href="#" class="subject-link">Aboriginal and Intercultural Studies</a></li>
+                        <li><a href="#" class="subject-link">Accounting and Finance</a></li>
+                        <li><a href="#" class="subject-link">Ancient History</a></li>
+                        <li><a href="#" class="subject-link">Business Management and Enterprise</a></li>
+                        <li><a href="#" class="subject-link">Economics</a></li>
+                        <li><a href="#" class="subject-link">Geography</a></li>
+                        <li><a href="#" class="subject-link">Modern History</a></li>
+                        <li><a href="#" class="subject-link">Philosophy and Ethics</a></li>
+                        <li><a href="#" class="subject-link">Politics and Law</a></li>
+                        <li><a href="#" class="subject-link">Various language courses</a></li>
+                    </ul>
+                </div>
+                <div class="subject-category">
+                    <h3>List B (Mathematics, Science, Technology)</h3>
+                    <ul>
+                        <li><a href="#" class="subject-link">Mathematics Applications</a></li>
+                        <li><a href="#" class="subject-link">Mathematics Methods</a></li>
+                        <li><a href="#" class="subject-link">Mathematics Specialist</a></li>
+                        <li><a href="#" class="subject-link">Biology</a></li>
+                        <li><a href="#" class="subject-link">Chemistry</a></li>
+                        <li><a href="#" class="subject-link">Earth and Environmental Science</a></li>
+                        <li><a href="#" class="subject-link">Human Biology</a></li>
+                        <li><a href="#" class="subject-link">Physics</a></li>
+                        <li><a href="#" class="subject-link">Psychology</a></li>
+                        <li><a href="#" class="subject-link">Applied Information Technology</a></li>
+                        <li><a href="#" class="subject-link">Computer Science</a></li>
+                        <li><a href="#" class="subject-link">Engineering Studies</a></li>
+                        <li><a href="#" class="subject-link">Food Science and Technology</a></li>
+                        <li><a href="#" class="subject-link">Materials Design and Technology</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
